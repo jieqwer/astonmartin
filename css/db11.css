@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "OptimaWeb", Optima, Georgia, serif;
+}
+html::-webkit-scrollbar   {
+    background: #f8f8f8;
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb{
+    background: #1d1d1d;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+.extra-nav1{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    cursor: pointer;
+}
+.extra-nav1 div {
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin: 8px auto;
+    position: relative;
+    transition: all 0.2s linear;
+}
+header>a>img{
+    width: 150px;
+    height: 76px;
+    left: 50%;
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 15px;
+}
+header>a{
+ width: 150px;
+    height: 76px;
+    left: 50%;
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 15px;
+}
+.extra-nav2{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+    position: fixed;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.3s linear;
+}
+.article{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.vid1{
+    width: 100%;
+    margin-top: -100px;
+    position: relative;
+}
+.ul1{
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    margin-left: -15%;
+}
+.ul1 li{
+    width: 30%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+.ul1 li:nth-of-type(2){
+    margin: 0 5%;
+}
+.ul1 li a{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+.ul1 li a:before{
+    content: "";
+    display: block;
+    position: relative;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    top: 30px;
+    /* transform: translateY(-50%) translateX(-50%); */
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.ul1 li a:after {
+    content: "";
+    display: block;
+    position: relative;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    top: -25px;
+    transform: translateY(-50%) translateX(-50%) scale(0);
+    border-radius: 50%;
+    border: 1px solid #C8C68D;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.ul1 li:hover >a:after {
+    content: "";
+    display: block;
+    position: relative;
+    left: 15px;
+    width: 16px;
+    height: 16px;
+    top: -25px;
+    transform: translateY(-50%) translateX(-50%) scale(1);
+    border-radius: 50%;
+    border: 1px solid #C8C68D;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.vid2{
+    width: 100%;
+    position: relative;
+}
+.vid2 div{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    font-size: 36px;
+    color: white;
+    top: 30px;
+}
+.vid2 img{
+    width: 100%;
+    position: relative;
+    margin-top: -10px;
+}
+.vid2 span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.vid2 span svg{
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 37.5%;
+    fill: #A8A54F;
+}
+.vid2 span:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    left: -12%;
+    top: -12%;
+    width: 120%;
+    height: 120%;
+    border: 1px solid #C8C68D;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 5;
+}
+.vid2 span:hover:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    left: -17%;
+    top: -17%;
+    width: 130%;
+    height: 130%;
+    border: 1px solid #C8C68D;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 5;
+}
+.vid3{
+    display: block;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.vid3 img{
+    width: 100%;
+    position: relative;
+}
+.vid2 blockquote{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    text-align: left;
+    z-index: 5;
+    font-size: 32px;
+    color: white;
+    left: 30%;
+    margin-left: -20%;
+}
+.vid2 blockquote:before{
+    content: " /";
+    color: #C8C68D;
+    position: absolute;
+    left: -20px;
+}
+.vid2 blockquote:after {
+    content: "/";
+    color: #C8C68D;
+    position: relative;
+    left: -5px;
+}
+.vid2 cite {
+    width: 40%;
+    position: absolute;
+    top:30%;
+    text-align: left;
+    z-index: 5;
+    font-size: 18px;
+    color: white;
+    left: 30%;
+    margin-left: -20%;
+}
+.footer{
+    width: 100%;
+    height: 1050px;
+    background: black;
+    margin-top: -10px;
+}
+
+.footer h2{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+   color: whitesmoke;
+    font-size: 36px;
+}
+.footer1{
+    width: 90%;
+    height: 310px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer1 a{
+    display: block;
+    width: 32%;
+    height: 310px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.footer1 a:nth-of-type(2){
+    margin: 0 2%;
+}
+.footer1 a video{
+    width: 100%;
+}
+.footer1 a span:nth-of-type(1){
+    display: block;
+    position: absolute;
+    top: 4%;
+    color: whitesmoke;
+    left: 8%;
+    font-size: 14px
+}
+.footer1 a span:nth-of-type(2){
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    color: whitesmoke;
+    font-size: 28px
+}
+.footer1 a span:nth-of-type(3){
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #C8C68D;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.wenzi{
+    width: 60%;
+    height: 200px;
+    margin: 100px auto;
+    border-bottom:1px solid #ccc ;
+}
+.wenzi ul{
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.wenzi ul li{
+    width: 100%;
+   height: 60px;
+    line-height: 60px;
+    font-size: 1.2em;
+    list-style: none;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+.wenzi ul:nth-of-type(3) li{
+    text-align: right;
+}
+.wenzi ul:nth-of-type(4) li{
+    text-align: right;
+}
+.wenzi a{
+    display: block;
+     width: 20%;
+     height: 300px;
+     float: left;
+ }
+.wenzi a img{
+    width: 100%;
+    margin: 80px auto;
+}
+.wenzi1{
+    width: 60%;
+    height: 50px;
+    margin: 100px auto;
+}
+.wenzi1 ul{
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2){
+   margin: 0 5%;
+}
+.wenzi1 ul li{
+    list-style: none;
+    line-height: 50px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.wenzi1 ul:nth-of-type(2) li{
+    width: 10%;
+    height: 50px;
+    float: left;
+    margin: 5px 0.5%;
+    cursor: pointer;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(1):before{
+    content: url("../img/wifi.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(2):before{
+    content: url("../img/f.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(3):before{
+    content: url("../img/xiaoniao.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(4):before{
+    content: url("../img/youku1.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(5):before{
+    content: url("../img/weibo2.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(6):before{
+    content: url("../img/vine.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(7):before{
+    content: url("../img/g  36px.png");
+    float: left;
+}
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(8):before{
+    content: url("../img/IN.png");
+    float: left;
+}
+
+.wenzi1 ul:nth-of-type(2) li:nth-of-type(9):before{
+    content: url("../img/instagram.png");
+    float: left;
+}
+
+.chn{
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin-left: 50%;
+    line-height: 50px;
+}
+.wenzi1 ul li a img{
+    float: left;
+    width: 20%;
+    height: 30px;
+    margin: 10px auto;
+}
+.wenzi1 ul li a span{
+    float: left;
+    width: 70%;
+    display: block;
+    font-size: 14px;
+}
+
+.son2{
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 50%;
+    margin-left: -40%;
+
+}
+.son2 div{
+    width: 33.333%;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+}
+/*.son2 div:nth-of-type(2){
+    margin: 0 5%;
+}*/
+.son2 div img{
+    width: 100%;
+    height: 300px;
+}
+.son2 div span{
+     display: block;
+     position: absolute;
+     width: 33.33%;
+     height: 300px;
+     text-align: center;
+     line-height: 300px;
+     top: 0;
+     color: white;
+     font-size: 30px;
+     background: rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.3s linear;
+ }
+.son2 div span:hover{
+    background: rgba(0,0,0,0);
+}
+.son3{
+    width: 76%;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -40%;
+}
+.son3 li{
+    width: 13.8%;
+    height: 100px;
+    float: left;
+    list-style: none;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, transparent, white, transparent);
+    background-size: 1px 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.son3 li:nth-of-type(1){
+    margin-left: 3.4%;
+}
+.son3 li:nth-of-type(7){
+    background-image: none;
+}

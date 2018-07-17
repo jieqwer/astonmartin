@@ -1,0 +1,1292 @@
+/*http://site.astonmartin.com/content/astonmartin/styles/am-layout-page.css*/
+
+/* CSS Document */
+
+article h1 { margin: 10px 0 20px }
+h1, h2, h3 {font-weight:bold!important;}
+
+.alp-header {
+	margin: 10px 0 20px!important;
+}
+
+html.xlarge h1.alp-header {
+	color: black;
+	font-size: 70px;
+	letter-spacing: -0.059em;
+	display: block;
+	float: left;
+}
+
+html.large h1.alp-header {
+	color: black;
+	font-size: 62px;
+	letter-spacing: -0.059em;
+	display: block;
+	float: left;
+}
+
+html.medium h1.alp-header {
+	color: black;
+	font-size: 48px;
+	letter-spacing: -0.059em;
+	display: block;
+   float: left;
+}
+
+html.small h1.alp-header {
+	color: black;
+	font-size: 44px;
+	letter-spacing: -0.059em;
+	display: block;
+	float: left;
+}
+
+h1 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/black-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+}
+
+h2 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/white-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+	font-weight:bold;
+}
+html.xlarge h2.alp-tagline {
+	color:#999;
+	font-size: 22px;
+	letter-spacing: -0.059em;
+	padding:37px 0 0 10px;
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+html.large h2.alp-tagline {
+	color:#999;
+	font-size: 18px;
+	letter-spacing: -0.059em;
+	padding:34px 0 0 10px;
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+html.medium h2.alp-tagline {
+	color:#999;
+	font-size: 17px;
+	letter-spacing: -0.059em;
+	padding:26px 0 0 10px;
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+html.small h2.alp-tagline {
+	color:#999;
+	font-size: 15px;
+	letter-spacing: -0.059em;
+	padding: 26px 0 0 9px;
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+.apl-hr-left{
+	clear: both;
+	width: 100%;
+	display: block;
+	height: 1em;
+	margin: 1em 0 1.3em;
+}
+html.xlarge .apl-hr-left{background: url(http://cdn.astonmartin.com/images/xl-strake-left.gif) no-repeat left center; }
+html.large .apl-hr-left{background: url(http://cdn.astonmartin.com/images/l-strake-left.gif) no-repeat left center;}
+html.medium .apl-hr-left{background: url(http://cdn.astonmartin.com/images/m-strake-left.gif) no-repeat left center;}
+html.small .apl-hr-left{background: url(http://cdn.astonmartin.com/images/s-strake-left.gif) no-repeat left center;}
+
+.apl-hr-right{
+	clear: both;
+	width: 100%;
+	display: block;
+	height: 1em;
+	margin: 1em 0 1.3em;
+	
+}
+html.xlarge .apl-hr-right{ background: url(http://cdn.astonmartin.com/images/xl-strake-right.gif) no-repeat left center; }
+html.large .apl-hr-right{background: url(http://cdn.astonmartin.com/images/l-strake-right.gif) no-repeat left center; }
+html.medium .apl-hr-right{background: url(http://cdn.astonmartin.com/images/m-strake-right.gif) no-repeat left center; }
+html.small .apl-hr-right{background: url(http://cdn.astonmartin.com/images/s-strake-right.gif) no-repeat left center; }
+
+
+html.xlarge .iframeScale {
+	width: 750px;
+	height: 375px;
+}
+
+html.large .iframeScale {
+	width: 625px;
+	height: 312px;
+}
+
+html.medium .iframeScale {
+	width: 550px;
+	height: 275px;
+}
+
+html.small .iframeScale {
+	width: 450px;
+	height: 225px;
+}
+h2.right, h1.alp-h50,  h1.alp-h50 span, h1, h2, h3, h4, .col1 h2, .col2 h2, .col3 h2 {font-weight:700;}
+html.xlarge .alp-img50 { width: 740px; }
+
+html.large .alp-img50 { width: 575px; }
+
+html.medium .alp-img50 { width: 520px; }
+
+html.small .alp-img50 { width: 457px; }
+
+html.xlarge h1.alp-h50 {
+	font-size: 37px;
+	line-height: 39px;
+	margin: 40px 0 15px 80px!important;
+	letter-spacing: -0.018em;
+}
+
+html.large h1.alp-h50 {
+	font-size: 34px;
+	line-height: 36px;
+	margin: 40px 0 10px 40px!important;
+	letter-spacing: -0.018em;
+}
+
+html.medium h1.alp-h50 {
+	font-size: 30px;
+	line-height: 33px;
+	margin: 20px 0 10px 30px!important;
+	letter-spacing: -0.018em;
+}
+
+html.small h1.alp-h50 {
+	font-size: 28px;
+	line-height: 30px;
+	margin: 18px 0 10px 20px!important;
+	letter-spacing: -0.018em;
+}
+
+html.xlarge h1.alp-h50 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/black-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+}
+
+html.large h1.alp-h50 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/black-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+}
+
+html.medium h1.alp-h50 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/black-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+}
+
+html.small h1.alp-h50 span {
+	background: url(http://cdn.astonmartin.com/icons/lines/black-60x1.png) right 50% no-repeat transparent;
+	padding-right: 70px;
+}
+
+.banner .tagline {
+	font-style: italic!important;
+	font-family: "Classico Italic", Optima, Arial, sans-serif;
+	position: absolute;
+	letter-spacing: -0.018em;
+	width: auto;
+	text-transform: uppercase;
+	color: #fff!important;
+	z-index: 1;
+}
+
+html.xlarge .banner .tagline {
+	font-size: 1.125em;
+	line-height: 18px;
+	top: 90px;
+	left: 30px;
+}
+
+html.large .banner .tagline {
+	font-size: 1.025em;
+	letter-spacing: .12em;
+	line-height: 18px;
+	top: 80px;
+	left: 30px;
+}
+
+html.medium .banner .tagline {
+	font-size: 0.925em;
+	text-transform: uppercase;
+	line-height: 18px;
+	top: 75px;
+	left: 30px;
+}
+
+html.small .banner .tagline {
+	font-size: 0.825em;
+	text-transform: uppercase;
+	line-height: 18px;
+	top: 70px;
+	left: 30px;
+}
+
+/*------START OF CENTRED HORIZONTAL MENU------------*/
+ 
+
+#alp-inner-menu {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+	margin: 0 0 -22px 0;
+}
+/*THESE VALUES AFFECT THE PAGES WHERE THE TERSARY MENU IS BROKEN AND THEY FIX THE POSITION AND SIZE ISSUES
+
+		html.xlarge #alp-inner-menu { margin:40px 0 10px !important;}
+		html.large #alp-inner-menu { margin:40px 0 10px!important;}
+		html.medium #alp-inner-menu { margin:10px 0 10px!important;}
+		html.small #alp-inner-menu { margin:10px 0 10px!important;}
+		
+		THESE REPLACE THE VALUES FROM LINE 951
+		
+		html.xlarge #alp-third-menu {margin: -52px 0 -46px 0;}
+		html.large #alp-third-menu {margin: -52px 0 -46px 0;}
+		html.medium #alp-third-menu {margin: -65px 0 -46px 0;}
+		html.small #alp-third-menu {margin: -66px 0 -46px 0;}
+
+*/
+#alp-inner-menu ul {
+	list-style: none;
+	position: relative;
+	left: 50%;
+	float:left;
+	*width:1490px;/* IE7 and below */ 
+}
+
+#alp-inner-menu li {
+	float: left;
+	position: relative;/* ie needs position:relative here*/
+	*float: none;/* IE7 and below */ 
+	*display: inline;/* IE7 and below */ 	
+}
+
+
+#alp-inner-menu a {
+	text-decoration: none;
+	margin: 20px 0;
+	background: #FFF;
+	float: left;
+	*float: none;
+	/*border-right: 1px solid #999;*/
+	color: #666;
+	padding: 2px 25px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.vertical-centre {vertical-align: middle; display:block; }
+
+.menuClear {/*height:50px; float:left;*/ clear:both; width: 100%; display: block;}
+
+
+html.xlarge #alp-inner-menu li a { font-size: 13px!important; padding: 0px 17px 6px; }
+html.xlarge .specs #alp-inner-menu li a, html.xlarge .media gallery #alp-inner-menu li a {font-size: 13px!important;}
+
+html.large #alp-inner-menu li a { font-size: 13px!important; padding: 0px 15px 6px;}
+html.large .specs #alp-inner-menu li a, html.large .media gallery #alp-inner-menu li a { font-size: 13px!important; padding: 0px 15px 6px;}
+
+html.medium #alp-inner-menu li a { font-size: 12px!important; padding: 0px 12px 6px;}
+html.medium .specs #alp-inner-menu li a, html.medium .media gallery #alp-inner-menu li a  { font-size: 12px!important; padding: 0px 12px 6px;}
+
+html.small #alp-inner-menu li a { font-size: 12px!important; padding: 0px 8px 6px;}
+html.small .specs #alp-inner-menu li a, html.small .media gallery #alp-inner-menu li a { font-size: 12px!important; padding: 0px 8px 6px;}
+
+#alp-inner-menu li.last a { border-right: 1px solid #fff; }
+
+#alp-inner-menu a:hover, #alp-inner-menu a.selected { color: #000; background: url(http://cdn.astonmartin.com/images/down-menu-arrow.gif) center 17px no-repeat; }
+
+/*#content{overflow:hidden} hide horizontal scrollbar*/
+
+
+/*------END OF CENTRED HORIZONTAL MENU------------*/
+
+p.alp-p50 {color:#666!important;} 
+
+html.xlarge p.alp-p50 {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 80px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 27px 80px;
+	/*letter-spacing: -0.018em;*/
+}
+
+html.large p.alp-p50 {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 50px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 24px 40px;
+	/*letter-spacing: -0.018em;
+*/}
+
+html.medium p.alp-p50 {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 30px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 21px 30px;
+	/*letter-spacing: -0.018em;*/
+}
+
+html.small p.alp-p50 {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 30px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 18px 20px;
+	/*letter-spacing: -0.018em;*/
+}
+a.readmore {text-transform:none!important; font-weight:bold!important;}
+html.xlarge a.readmore {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 10px 0 0;
+	/*text-align: justify;*/
+	/*letter-spacing: -0.018em;*/
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.large a.readmore {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 10px 0 0;
+	/*text-align: justify;
+	letter-spacing: -0.018em;*/
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.medium a.readmore {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+	/*text-align: justify;
+	letter-spacing: -0.018em;*/
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.small a.readmore {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+	/*text-align: justify;
+	letter-spacing: -0.018em;*/
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+.readmore:hover { text-decoration: underline!important; }
+
+.submit {
+   border: 1px solid #000;
+   color: #000!important;
+   font-style: normal;
+   background-color:#fff;
+   width: 30%;
+   padding:6px 80px;
+
+}
+
+.submit:hover {
+   border: 1px solid #000;
+   background-color:#000;
+   color: #fff!important;
+}
+
+/* ASTON LONGPAGE BANNERS WITH OVERLAY TEXT */
+
+
+/*AD BANNER*/
+
+html.xlarge .alp-top-banner-container, html.xlarge .alp-top-banner-container img  { width:1490px;  }
+
+html.xlarge .alp-banner-container { width: 1490px; height:400px; }
+ 
+
+html.large .alp-banner-container { width: 1160px; height:312px!important; }
+html.large .alp-top-banner-container, html.large .alp-top-banner-container img  { width: 1160px; -ms-interpolation-mode: bicubic; }
+
+
+html.medium .alp-banner-container { width: 1050px; height:280px!important; }
+html.medium .alp-top-banner-container img, html.medium .alp-top-banner-container { width: 1050px; -ms-interpolation-mode: bicubic; }
+
+html.small .alp-banner-container  { width: 942px; height:251px!important; }
+html.small .alp-top-banner-container img, html.small .alp-top-banner-container { width: 942px; -ms-interpolation-mode: bicubic;}
+
+
+html.xlarge .alp-banner-container img {
+	width: 1490px;
+	z-index: 1;
+	position: relative;
+	left: 0;
+	top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+html.large .alp-banner-container img {
+	width: 1160px;
+	z-index: 1;
+	position: relative;
+	left: 0;
+	top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+html.medium .alp-banner-container img {
+	width: 1050px;
+	z-index: 1;
+	position: relative;
+	left: 0;
+	top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+html.small .alp-banner-container img {
+	width: 942px;
+	z-index: 1;
+	position: relative;
+	left: 0;
+	top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+.alp-banner-container h2.right, .alp-banner-container p {color:#fff!important;}
+
+html.xlarge .alp-banner-container h2.right {
+	z-index: 400;
+	position: relative;
+	left: 991px;
+	top: -295px;
+	font-size: 36px;
+	line-height: 27px;
+	font-style:italic;
+}
+
+html.large .alp-banner-container h2.right {
+	z-index: 2;
+	position: relative;
+	left: 772px;
+	top: -251px;
+	font-size: 24px;
+	line-height: 4px;
+	font-style: italic;
+}
+
+html.medium .alp-banner-container h2.right {
+	z-index: 2;
+	position: relative;
+	left: 698px;
+	top: -238px;
+	font-size: 26px;
+	line-height: 10px;
+	font-style: italic;
+}
+html.small .alp-banner-container h2.right {
+	z-index: 400;
+	position: relative;
+	left: 626px;
+	top: -226px;
+	font-size: 22px;
+	line-height: 4px;
+	font-style: italic;
+}
+
+
+html.xlarge .alp-banner-container p {
+	z-index: 2;
+	position: relative;
+	left: 993px;
+	font-size: 17px;
+	line-height: 26px;
+	top: -314px;
+	width: 430px;
+	letter-spacing: -0.018em!important;
+}
+
+html.large .alp-banner-container p {
+	z-index: 2;
+	position: relative;
+	left: 772px;
+	font-size: 17px;
+	line-height: 20px;
+	top: -254px;
+	width: 352px;
+	letter-spacing: -0.018em!important;
+}
+
+html.medium .alp-banner-container p {
+	z-index: 2;
+	position: relative;
+	left: 700px;
+	font-size: 15px;
+	line-height: 20px;
+	top: -242px;
+	width: 300px;
+	letter-spacing: -0.018em!important;
+	}
+
+html.small .alp-banner-container p {
+	z-index: 2;
+	position: relative;
+	left: 628px;
+	line-height: 20px;
+	top: -234px;
+	width: 270px;
+	letter-spacing: -0.018em!important;
+	font-size: 15px;
+}
+
+/* ASTON LONGPAGE BANNERS WITH OVERLAY TEXT */
+
+
+/* AM LONG PAGE THREE BY THREE GRID */
+
+.three-by-three-grid {/*z-index:100; position:relative;*/ float:left;}
+/*
+.three-by-three-grid img.grid-bg {z-index: 100; position: absolute;}
+html.xlarge .three-by-three-grid img.grid-bg {width:1490px; }
+html.large .three-by-three-grid img.grid-bg {width: 1160px;}
+html.medium .three-by-three-grid img.grid-bg {width: 1050px;}
+html.small .three-by-three-grid img.grid-bg {width: 942px;}*/
+
+.col1 {/*background-color:#CFCFCF; position:relative;*/ float:left; clear:right; z-index:200;}
+.col2 {/*background-color:#CCC;position:relative;*/ display:block; float:left; clear:right; min-height:20px; }
+.col3 {/*background-color:#006655; position:relative;*/ display:block;float:left; clear:right; z-index:200;}
+
+html.xlarge .three-by-three-grid .col1, html.xlarge .three-by-three-grid .col2 {width:496px;  }
+html.large .three-by-three-grid .col1, html.large .three-by-three-grid .col2 {width:386px; }
+html.medium .three-by-three-grid .col1, html.medium .three-by-three-grid .col2 {width:350px; }
+html.small .three-by-three-grid .col1, html.small .three-by-three-grid .col2 {width:309px; }
+
+html.xlarge .three-by-three-grid .col3 {width:498px;}
+html.large .three-by-three-grid .col3 {width:388px; }
+html.medium .three-by-three-grid .col3 {width:350px; }
+html.small .three-by-three-grid .col3 {width:302px; }
+
+/*IMGS IN COLS */
+html.xlarge .three-by-three-grid .col1 img {width:480px; float:left; margin:0 0 20px;}
+html.large .three-by-three-grid .col1 img {width:371px; float:left; margin:0 0 20px;}
+html.medium .three-by-three-grid .col1 img {width:340px; float:left; margin:0 0 15px;}
+html.small .three-by-three-grid .col1 img {width:304px; float:left; margin:0 0 10px;}
+
+html.xlarge .three-by-three-grid .col2 img {width: 482px; margin: 0 7px 20px; }
+html.large .three-by-three-grid .col2 img {width:373px; margin:0 7px 20px;}
+html.medium .three-by-three-grid .col2 img {width:341px; margin:0 5px 15px;}
+html.small .three-by-three-grid .col2 img {width:305px; margin: 0 -2px 7px;}
+
+html.xlarge .three-by-three-grid .col3 img {width:483px; float:right; margin:0 0 20px;}
+html.large .three-by-three-grid .col3 img {width:373px; float:right; margin:0 0 20px;}
+html.medium .three-by-three-grid .col3 img {width:341px; float:right; margin:0 0 15px;}
+html.small .three-by-three-grid .col3 img {width:305px; float:right; margin:0 0 10px;}
+
+/*TEXT IN COLS */
+.three-by-three-grid .col1 p, .three-by-three-grid .col2 p, .three-by-three-grid .col3 p {color:#666!important;}
+
+html.xlarge .three-by-three-grid .col1 p {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 80px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 27px 80px;
+	/*letter-spacing: -0.018em;*/
+} 
+html.xlarge .three-by-three-grid .col2 p, html.xlarge .three-by-three-grid .col3 p {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 80px 0 0;
+	/*text-align: justify;*/
+	margin: 0px 0 27px 80px;
+	/*letter-spacing: -0.018em;*/
+}
+
+html.large .three-by-three-grid .col1 p {font-size: 17px; line-height: 24px; padding: 0 10px 21px 0; /*text-align: justify;*/	margin: 0; } 
+html.large .three-by-three-grid .col2 p, html.large .three-by-three-grid .col3 p {font-size: 17px; line-height: 24px; padding: 0 10px 21px 15px; /*text-align: 
+
+justify;*/	margin: 0; }
+
+html.medium .three-by-three-grid .col1 p {font-size: 15px; line-height: 20px; padding: 0 10px 18px 0; /*text-align: justify;*/	margin: 0; } 
+html.medium .three-by-three-grid .col2 p, html.medium .three-by-three-grid .col3 p {font-size: 15px; line-height: 20px; padding: 0 10px 18px 10px; /*text-align: 
+
+justify;*/	margin: 0; }
+
+html.small .three-by-three-grid .col1 p {font-size: 15px; line-height: 20px; padding: 0 10px 15px 0; /*text-align: justify;*/	margin: 0; } 
+html.small .three-by-three-grid .col2 p, html.small .three-by-three-grid .col3 p {font-size: 15px; line-height: 20px; padding: 0 10px 15px 10px; /*text-align: 
+
+justify;*/	margin: 0; }
+
+/*html.xlarge .three-by-three-grid .col2 h1,  */
+
+html.xlarge .three-by-three-grid .col2 h2, html.xlarge .three-by-three-grid .col3 h2 {padding-left: 15px; }
+html.large .three-by-three-grid .col2 h2, html.large .three-by-three-grid .col3 h2 {padding-left: 15px;  }
+html.medium .three-by-three-grid .col2 h2, html.medium .three-by-three-grid .col3 h2 {padding-left: 10px;  }
+html.small .three-by-three-grid .col2 h2, html.small .three-by-three-grid .col3 h2 {padding-left: 10px;  }
+/*
+.sf_cols clear3x3Grid{ clear:both; display:block; min-height:500px; }*/
+
+
+html.xlarge #powertrain-wrapper {width:1490px; height: 1250px; background: url(http://cdn.astonmartin.com/images/cars/Powertrainxl.jpg) no-repeat right top;}
+html.large #powertrain-wrapper {width:1160px; height: 1100px; background: url(http://cdn.astonmartin.com/images/cars/Powertrain-l.jpg) no-repeat right top;}
+html.medium #powertrain-wrapper {width:1050px; height: 1081px; background: url(http://cdn.astonmartin.com/images/cars/Powertrain-m.jpg) no-repeat right top;}
+html.small #powertrain-wrapper {width:942px; height: 970px; background: url(http://cdn.astonmartin.com/images/cars/Powertrain-s.jpg) no-repeat right top;}
+
+
+/*THIS IS THE CODE FOR THE POWERTRAIN USED ON THE RAPIDE S TECHNICAL PAGE - JANUARY 2013*/
+
+html.xlarge #powertrain-wrapper-rapide-s {width:1490px; height: 1320px; background: url(http://cdn.astonmartin.com/images/rapide-pt-xl-r100.jpg) no-repeat right top;}
+html.large #powertrain-wrapper-rapide-s{width:1160px; height: 1100px; background: url(http://cdn.astonmartin.com/images/rapide-pt-l-r100.jpg) no-repeat right top;}
+html.medium #powertrain-wrapper-rapide-s {width:1050px; height: 1081px; background: url(http://cdn.astonmartin.com/images/rapide-pt-m-r100.jpg) no-repeat right top;}
+html.small #powertrain-wrapper-rapide-s {width:942px; height: 970px; background: url(http://cdn.astonmartin.com/images/rapide-pt-s-r100.jpg) no-repeat right 104px;}
+
+html.xlarge .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:540px;}
+html.large .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:510px;}
+html.medium .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:460px;}
+html.small .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:370px;}
+
+html.xlarge .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:420px;}
+html.large .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:410px;}
+html.medium .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:350px;}
+html.small .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:300px;}
+
+html.xlarge #powertrain-wrapper-rapide-s .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:420px;} 
+html.large #powertrain-wrapper-rapide-s .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:410px;}
+html.medium #powertrain-wrapper-rapide-s .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:220px;}
+html.small #powertrain-wrapper-rapide-s .three-by-three-grid .col3 .heightAdjuster {display:block; width:100%; height:300px;}
+
+html.xlarge #powertrain-wrapper-rapide-s .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:420px;} 
+html.large #powertrain-wrapper-rapide-s .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:410px;}
+html.medium #powertrain-wrapper-rapide-s .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:340px;}
+html.small #powertrain-wrapper-rapide-s .three-by-three-grid .col1 .heightAdjuster {display:block; width:100%; height:300px;}
+
+
+/* END AM LONG PAGE THREE BY THREE GRID */
+/* _-------------------TECH DATA LIST BLOCK-------*/
+
+.techDataList {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+	width: 480px;
+}
+
+.techDataList ul {
+	list-style: none!important;
+	position: relative;
+	left: 50%;
+}
+
+.techDataList li {
+	float: left;
+	display: block;
+	position: relative;
+	color: #ccc;
+	padding: 40px 0px 10px 0px;
+	font-size: 50px!important;
+	font-weight: normal;
+	border-right: 1px solid #CCC;
+	text-align: center;
+	letter-spacing: -0.018em;
+}/* ie needs position:relative here*/
+
+.techDataList span {
+	text-decoration: none;
+	margin: 10px 0;
+	font-size: 15px;
+	float: left;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%;
+	letter-spacing: -0.018em;
+	display: block;
+	padding: 35px 0 0 0;
+}
+
+.techDataList li.last { border-right: 1px solid #fff; }
+
+/*ASTON LP 2/5ths and 3/5ths BLOCKS***/
+
+html.xlarge .alp-3-5ths, html.xlarge .alp-3-5ths img { width: 883px; }
+
+html.large .alp-3-5ths, html.large .alp-3-5ths img { width: 687px; /*height:200px\9;*/ }
+
+html.medium .alp-3-5ths, html.medium .alp-3-5ths img { width: 622px; /*height:200px\9;*/}
+
+html.small .alp-3-5ths, html.small .alp-3-5ths img { width: 557px; /*height:200px\9;*/}
+
+html.xlarge .alp-2-5ths {
+	width: 565px;
+	padding: 0px 30px 0 0;
+}
+
+html.large .alp-2-5ths {
+	width: 432px;
+	padding: 0px 30px 0 0;
+}
+
+html.medium .alp-2-5ths {
+	width: 390px;
+	padding: 0px 30px 0 0;
+}
+
+html.small .alp-2-5ths {
+	width: 345px;
+	padding: 0px 30px 0 0;
+}
+
+/* _-------------------TECH DATA LIST BLOCK-------*/
+
+
+.techDataList {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+	width: 480px;
+}
+
+.techDataList ul {
+	list-style: none!important;
+	position: relative;
+	left: 50%;
+}
+
+.techDataList li {
+	float: left;
+	display: block;
+	position: relative;
+	color: #ccc;
+	padding: 40px 0px 10px 0px;
+	font-size: 50px!important;
+	font-weight: normal;
+	border-right: 1px solid #CCC;
+	text-align: center;
+	letter-spacing: -0.018em;
+}/* ie needs position:relative here*/
+
+.techDataList span {
+	text-decoration: none;
+	margin: 10px 0;
+	font-size: 15px;
+	float: left;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%;
+	letter-spacing: -0.018em;
+	display: block;
+	padding: 35px 0 0 0;
+}
+
+.techDataList li.last { border-right: 1px solid #fff; }
+
+/*FLOATING PERSISTANT NAVIGATION-------------------------vvvvvvvvvvvvvvvvvvv*/
+
+
+
+
+
+/*THIS IS THE PERSISTENT NAV STYLES*/
+.nav-container { margin-bottom: 2em; width:100%;margin-right:-2em }
+
+.nav-container nav {
+	z-index: 42;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	padding: 1em 3em;
+	background-color:#222;
+	/* IE6-IE8 */
+	position: relative;
+	
+}
+
+html.xlarge .nav-container nav {width:1490px;}
+html.large .nav-container nav {width:1160px;}
+html.medium .nav-container nav {width:1050px;}
+html.small .nav-container nav {width:920px;}
+
+.nav-container nav ul{ margin:0 auto;}
+	
+
+.nav-right {
+	position: absolute;
+	right:0;
+	bottom:-14px;
+	width:14px;
+	height:14px;
+	background: #848a6a;
+	background: rgba(132,138,106,0.7);
+	border-bottom-right-radius:100% 50%;
+}
+
+.nav-right:after {
+	content: '';
+	position: absolute;
+	left:0;
+	width:66%;
+	height:66%;
+	background: #000;
+	border-top-right-radius:100% 50%;
+	border-bottom-right-radius:100% 50%;
+}
+ 
+.nav-container nav li {
+	display: inline;
+	list-style: none;
+}
+
+.nav-container nav li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	padding: .5em 1em;
+	/*-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;*/
+}
+
+.nav-container nav li a:hover,
+.nav-container nav li a.selected {
+	color: #fff;
+	background: #333;
+}
+
+
+ 
+/*clearfix*/    
+.wrapper:before,
+.wrapper:after {
+	content: '';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	clear: both;
+	zoom: 1 
+}
+
+.sticky {
+	position: fixed!important;
+	top: 15px;
+	animation:thedrop 1s 1;
+	-moz-animation:thedrop 1s 1;
+	-webkit-animation:thedrop 1s 1;
+}
+/*#nav1 li#totop {display:none;}*/
+
+
+/*.sticky .nav-above {
+	position: absolute;
+	top:-15px;
+	left:1em;
+	right:1em;
+	height:15px;
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 80%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}*/
+   
+   
+.xlarge .topArea { background: #28303B url(http://cdn.astonmartin.com/images/db9-spec-top-xl.jpg) no-repeat right top;
+} 
+.large .topArea { background: #28303B url(http://cdn.astonmartin.com/images/db9-spec-top-l.jpg) no-repeat right top;
+} 
+.medium .topArea { background: #28303B url(http://cdn.astonmartin.com/images/db9-spec-top-m.jpg) no-repeat right top;
+} 
+.small .topArea { background: #28303B url(http://cdn.astonmartin.com/images/db9-spec-top-s.jpg) no-repeat right top;
+} 
+
+/*CONFIGURATOR
+.configurator {margin: 0 auto!important; float: none!important;}*/
+
+.medium .generic .configurator, .medium .generic .configurator .placeholder {
+	width: 950px;
+	height: 496px;
+	margin-left: 50px;
+}
+.small .generic .configurator, .small .generic .configurator .placeholder {
+width: 830px;
+height: 430px;
+}
+.small .generic .configurator iframe {
+	width: 840px;
+	height: 445px;
+	margin-left: 70px;
+}
+.linkBox {cursor:pointer; display:block; width:100%;}
+
+/*------START OF CENTRED HORIZONTAL MENU---------------------------------------------------------------------------------------------------------------*/
+
+#thirdmenu-wrapper {
+	/*position: absolute;*/
+	color: #fff;
+	font-size:13px;
+    margin: 10px auto 10px;
+    width: 100%;
+    height: 50px;
+}
+
+html.xlarge #thirdmenu-wrapper {
+    background: url(http://cdn.astonmartin.com/images/menu-line-xlarge.jpg) repeat-x center top;
+}
+
+html.large #thirdmenu-wrapper {
+	background: url(http://cdn.astonmartin.com/images/menu-line-large.jpg) repeat-x center top;}
+
+html.medium #thirdmenu-wrapper {
+	background: url(http://cdn.astonmartin.com/images/menu-line-medium.jpg) repeat-x center top;}
+
+html.small #thirdmenu-wrapper {
+	background: url(http://cdn.astonmartin.com/images/menu-line-small.jpg) repeat-x center top;}
+
+#alp-third-menu {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+    margin: 0 0 -46px 0;
+    display: block;
+    clear: both;
+}
+/*
+html.xlarge #alp-third-menu {margin: -23px 0 -46px 0;}
+html.large #alp-third-menu {margin: -16px 0 -46px 0;}
+html.medium #alp-third-menu {margin: -21px 0 -46px 0;}
+html.small #alp-third-menu {margin: -14px 0 -46px 0;}
+
+
+THESE ALTERATIONS ARE FOR PAGES WHERE THE TERSIARY MENU IS BROKEN /////////
+
+		//////////////////////////////////////////////////////
+
+		html.xlarge #alp-third-menu {margin: -52px 0 -46px 0;}
+		html.large #alp-third-menu {margin: -52px 0 -46px 0;}
+		html.medium #alp-third-menu {margin: -65px 0 -46px 0;}
+		html.small #alp-third-menu {margin: -66px 0 -46px 0;}
+		
+		//////////////////////////////////////////////////////
+*/
+
+#alp-third-menu ul {
+	list-style: none;
+	position: relative;
+	left: 50%;
+    top: 1px;
+}
+
+#alp-third-menu li {
+	float: left;
+	position: relative;
+}/* ie needs position:relative here*/
+
+#alp-third-menu li a {
+    text-decoration: none;
+    margin: 0px 0;
+    float: left;
+    /*border-right: 1px solid #999;*/
+    color: #616161!important;
+    padding: 2px 25px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.vertical-centre {
+	vertical-align: middle;
+	display: block;
+}
+
+.menuClear {
+	height: 50px;
+	float: left;
+	clear: right;
+	width: 100%;
+	display: block;
+
+}
+
+html.xlarge #alp-third-menu li a {
+	font-size: 13px!important;
+	padding: 10px 25px;
+}
+
+html.xlarge .specs #alp-third-menu li a, html.xlarge .media gallery #alp-third-menu li a { font-size: 0.988em!important; }
+
+html.large #alp-third-menu li a {
+	font-size: 13px!important;
+	padding: 10px 20px;
+}
+
+html.large .specs #alp-third-menu li a, html.large .media gallery #alp-third-menu li a {
+	font-size: 0.888em!important;
+	padding: 10px 20px;
+}
+
+html.medium #alp-third-menu li a {
+	font-size: 12px!important;
+	padding: 10px 15px;
+}
+
+html.medium .specs #alp-third-menu li a, html.medium .media gallery #alp-third-menu li a {
+	font-size: 0.788em!important;
+	padding: 10px 15px;
+}
+
+html.small #alp-third-menu li a {
+	font-size: 12px!important;
+	padding: 12px 10px;
+}
+
+html.small .specs #alp-third-menu li a, html.small .media gallery #alp-third-menu li a {
+	font-size: 0.688em!important;
+	padding: 12px 10px;
+}
+
+#alp-third-menu li.last a { border-right: none; }
+
+#alp-third-menu a:hover, #alp-third-menu a.selected {
+    color: #000000!important;
+    background: url(http://cdn.astonmartin.com/images/menu-down-arrow.gif) center 0px no-repeat;
+}
+
+/*#content{overflow:hidden} hide horizontal scrollbar*/
+
+
+/*------END OF CENTRED HORIZONTAL MENU------------*/
+
+
+
+.generic .configurator {
+	overflow: hidden;
+	margin: 0 auto;
+	float: left;
+}
+
+.generic .configurator iframe { display: none; }
+
+.xlarge .generic .configurator .xlarge .generic .configurator .placeholder {
+	width: 1490px;
+	height: 789px;
+}
+
+.xlarge .generic .configurator iframe {
+	width: 1750px;
+	height: 800px;
+}
+
+.large .generic .configurator iframe {
+	width: 1180px;
+	height: 800px;
+}
+
+.large .generic .configurator, .large .generic .configurator .placeholder {
+	width: 1165px;
+	height: 627px;
+}
+
+.medium .generic .configurator, .medium .generic .configurator .placeholder {
+	width: 960px;
+	height: 496px;
+	margin-left: 44px;
+}
+
+.medium .generic .configurator iframe {
+	width: 920px;
+	height: 600px;
+	margin-left: 44px
+}
+
+.small .generic .configurator, .small .generic .configurator .placeholder {
+	width: 817px;
+	height: 431px;
+	margin-left: 20px;
+}
+
+.small .generic .configurator iframe {
+	width: 785px;
+	height: 445px;
+	margin-left: 50px;
+}
+
+/*THE CONTENT BELOW IS FOR THE CENTENARY PAGE */
+
+.questions {
+	background: #DDDDDD url(http://cdn.astonmartin.com/images/centenaryLogo.jpg) no-repeat center bottom;
+	padding-bottom: 500px;
+	border-top:1px solid #666;
+}
+
+html.xlarge .questions h2 { color:#CCC; padding:40px 0 10px 30px; font-size:36px;}
+html.large .questions h2 { color:#CCC; padding:40px 0 10px 30px; font-size:34px;}
+html.medium .questions h2 { color:#CCC; padding:35px 0 10px 30px; font-size:32px;}
+html.small .questions h2 { color:#CCC; padding:30px 0 10px 30px; font-size:28px;}
+
+
+h3.date-header-top {color:#ccc; border-top:1px solid #000; padding:20px 0 20px 40px; margin:0; width:100%; display:block;}
+
+.answer h2 {color:#ccc; border-top:1px solid #DDD; padding:20px 0 20px 40px; margin:0; width:100%;}
+
+.answer {padding:0 0 0 0px;}
+
+html.xlarge .answer h2 {font-size:36px; width:950px;}
+html.large .answer h2 {font-size:34px; width:725px;}
+html.medium .answer h2 {font-size:32px; width:655px;}
+html.small .answer h2 {font-size:28px; width:580px;}
+
+p.p-ev {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 80px 0 0;
+	margin: 0px 0 27px 0px;
+	color:#666;
+} 
+
+
+html.xlarge p.p-ev {font-size: 19px; /*width:960px; */padding:0px 0 26px 40px;} 
+html.large p.p-ev {font-size: 17px;/* width:735px;*/ padding:0px 0 24px 40px;} 
+html.medium p.p-ev {font-size: 16px; /*width:660px;*/ padding:0px 0 20px 40px;} 
+html.small p.p-ev {font-size: 15px; /*width:565px;*/ padding:0px 0 19px 40px;} 
+
+.questions ul {}
+
+html.xlarge .questions ul li {width:451px;} 
+html.large .questions ul li {width:343px;} 
+html.medium .questions ul li {width:306px;} 
+html.small .questions ul li {width:262px;} 
+
+
+.questions ul li.first {
+	padding: 23px 0 22px 30px;
+	margin: 0;
+	font-size: 14px;
+	color:#fff;
+}
+
+html.xlarge .questions ul li a span.event-title {float:left; width:300px; font-size: 13px;}  
+html.large .questions ul li a span.event-title {float:left; width:250px; font-size: 13px;}  
+html.medium .questions ul li a span.event-title {float:left; width:220px; font-size: 13px;}  
+html.small .questions ul li a span.event-title {float:left; width:180px; font-size: 13px;} 
+
+.questions ul li { }
+
+.questions ul li a {
+	color: #666;
+	border-top: 1px solid #fff!important;
+	padding: 20px 0 20px 40px;
+	margin: 0;
+	text-decoration: none;
+	display: block;
+	width: 190px;
+	background: url(http://cdn.astonmartin.com/images/calendar-grey2.gif) no-repeat 10px center;
+}  
+
+a.readmore {text-transform:none!important; font-weight:bold!important;}
+html.xlarge a.readmore {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 10px 0 0;
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.large a.readmore {
+	font-size: 17px;
+	line-height: 26px;
+	padding: 0 10px 0 0;
+	
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.medium a.readmore {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+	color: #000;
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+html.small a.readmore {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 10px 0 0;
+	color: #000;2
+	text-decoration: none;
+	background: url(http://cdn.astonmartin.com/images/arrow-read-more.png) no-repeat right center;
+}
+
+.readmore:hover { text-decoration: underline!important; }
+
+.questions ul li a:hover, .questions ul li a:active, .questions ul li a.selected, .questions ul li.on a {color:#000!important; border-top:1px solid #BEBEBE!important; 
+
+background: url(http://cdn.astonmartin.com/images/calendar-grey1.gif) no-repeat 10px center;}  
+.questions ul li a span {color:#666; float:right; width:80px;}  
+
+.questions ul li a:hover .event-title, .questions ul li.on a .event-title  {color:#000;} 
+
+html.xlarge .event-banner, html.xlarge .event-banner img {width:950px;}
+html.large .event-banner, html.large .event-banner img {width:725px;}
+html.medium .event-banner, html.medium .event-banner img {width:655px;}
+html.small .event-banner, html.small .event-banner img {width:580px;}
+
+.event-banner {margin:0 0 40px 40px;}
+
+/*FOOT NOTE NAV / BACK TO TOP AND NEXT PAGES ------------------------------*/
+
+html.xlarge .forwardBackwardUp { width:1520px; font-size:13px;}
+html.large .forwardBackwardUp {width:1190px; font-size:13px;}
+html.medium .forwardBackwardUp {width:1080px; font-size:11px;}
+html.small .forwardBackwardUp {width:950px; font-size:11px;}
+
+
+.backwardsNav {text-align:left; float:left;}
+.backwardsNav .lastPage {
+	text-align: left;
+	float: left;
+	background: url(http://cdn.astonmartin.com/images/pageArwLeft.gif) no-repeat left center;
+	padding: 4px 30px;
+	margin: -30px 0 0 0;
+}
+.backwardsNav .lastPageBlank {
+	text-align: left;
+	float: left;
+	padding: 4px 30px;
+	margin: -30px 0 0 0;
+	color:white;
+}
+.centreToTopBtn {width:30px; margin:0 auto; text-align:center; clear:both;}
+
+.forwardsNav {padding-right:30px; background-image:url(images/search.gif) right middle; text-align:right; float:right; margin: -30px 0 0 0;}
+
+.forwardsNav .testDriveLink {display:block; border-right:1px solid #999; padding:4px 20px; float:left;}
+.forwardsNav .nextLink {padding-right:30px; padding: 4px 30px 4px 20px; background: url(http://cdn.astonmartin.com/images/pageArwRight.gif) no-repeat right center; 
+
+text-align:left; float:right;}
+
+/*END OF FOOT NOTE NAV / BACK TO TOP AND NEXT PAGES ------------------------------*/

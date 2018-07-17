@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Classico Regular",Optima,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.banner{
+    background: #000;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    height: 142px;
+}
+.container{
+    width: 70%;
+    height: 74px;
+    margin: 0 auto;
+}
+
+.left{
+    margin-top: 20px;
+    width: 40%;
+    color: white;
+    float: left;
+    font-size: 14px;
+}
+.center1{
+    margin-top: 20px;
+    width: 20%;
+    display: block;
+    float: left;
+    height: 54px;
+}
+.center1 div{
+    width: 100%;
+    height: 54px;
+}
+.ai{
+    display: block;
+    background: url("../img/2016-Aston-Martin-Logo-web-lrg.png")no-repeat;
+    width: 140px;
+    height: 54px;
+    margin: 0 auto;
+}
+.right{
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+    height: 54px;
+}
+.right a:nth-of-type(1){
+    margin-left:54% ;
+    display: block;
+    width: 12%;
+    height: 30px;
+    color: white;
+    float: left;
+    font-size: 14px;
+}
+.right >span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/fang.png")no-repeat;
+    float: left;
+}
+
+.right a:nth-of-type(2){
+    display: block;
+    width: 23%;
+    height: 30px;
+    color: white;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.right a:nth-of-type(3){
+    display: block;
+    width: 4%;
+    height: 30px;
+    color: white;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+}
+.nav{
+    width: 50%;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.nav ul{
+    width: 100%;
+    height: 52px;
+}
+
+.nav ul li{
+    width: 10%;
+    height: 52px;
+    line-height: 70px;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.nav ul li a{
+    display: block;
+    width: 100%;
+    color: white;
+}
+.nav ul li:nth-of-type(7){
+    width: 2%;
+    line-height: 80px;
+}
+.nav ul li:nth-of-type(8){
+    width: 20%;
+}
+.nav ul li:nth-of-type(9){
+    width: 7%;
+}
+.nav ul li:nth-of-type(10){
+    width: 7%;
+}
+
+/*尾部*/
+
+.footer{
+    width: 100%;
+    height: 240px;
+    background: black;
+}
+.footer ul:nth-of-type(1){
+    width: 50%;
+    margin: 10px auto;
+    height: 30px;
+    left: 30px;
+}
+.footer ul:nth-of-type(1) li{
+    color: white;
+    float: left;
+    font-size: 14px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.footer ul:nth-of-type(1) li:nth-of-type(1){
+    margin-left: 30%;
+    width: 8%;
+}
+.footer ul:nth-of-type(1) li span{
+    width: 14px;
+    height: 14px;
+    background: url("../img/jian2.png")no-repeat;
+    display: block;
+    float: left;
+}
+.footer ul:nth-of-type(1) li a{
+    float: left;
+}
+.img{
+    width: 10%;
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+.img1 {
+    width: 100px;
+    height: 30px;
+}
+.footer ul:nth-of-type(2){
+    width: 4%;
+    margin: 10px auto;
+    height: 14px;
+}
+.footer ul:nth-of-type(2) li:nth-of-type(1){
+    width: 30%;
+    background: url("../img/weibo.png")no-repeat;
+    height: 14px;
+    float: left;
+}
+.footer ul:nth-of-type(2) li:nth-of-type(2){
+    width: 30%;
+    background: url("../img/weixin.png")no-repeat;
+    height: 14px;
+    margin: 0 5%;
+    float: left;
+}
+.footer ul:nth-of-type(2) li:nth-of-type(3){
+    width: 30%;
+    background: url("../img/youku.png")no-repeat;
+    height: 14px;
+    float: left;
+}
+.footer ul:nth-of-type(3){
+    width: 30%;
+    margin: 10px auto;
+    height: 14px;
+}
+.footer ul:nth-of-type(3) li{
+    width:16%;
+    margin: 0.333% auto;
+    height: 14px;
+    color: white;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+.footer ul:nth-of-type(3) li:nth-of-type(1){
+    width:8%;
+}
+.footer ul:nth-of-type(3) li:nth-of-type(3){
+    width:8%;
+}
+.footer ul:nth-of-type(3) li:nth-of-type(6){
+    width:30%;
+}
+html::-webkit-scrollbar   {
+    background: #f8f8f8;
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb{
+    background: #1d1d1d;
+}
+.spmm{
+    width: 50%;
+    color: white;
+    margin: 30px auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box{
+    width:100%;
+    height:50px;
+    background:#222;
+    margin-top:2px;
+    line-height: 50px;
+}
+.box>p{
+    font-size:18px;
+    text-align:center;
+    color:white;
+}
+.son{
+    width:70%;
+    height:800px;
+    margin: 20px auto;
+}
+.son01{
+    width:30%;
+    height:100px;
+    background:white;
+    float:left;
+    font-size:0.65em;
+    font-family: "Classico Regular",Optima,Arial,sans-serif;
+    margin: 10px 1.6%;
+}
+.son01>p{
+    font-size:0.65em;
+    float:left;
+    height: 14px;
+    line-height: 14px;
+    display: block;
+    font-family: "Classico Regular",Optima,Arial,sans-serif;
+}
+.son01>a{
+color: #6f6f6f;
+}
+
+.sou{
+    width:4%;
+    height: 18px;
+    float: left;
+    cursor: pointer;
+
+}
+.sou input{
+    width: 0%;
+    background: none;
+    float: left;
+    border: none;
+}
+.sou span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/fang.png")no-repeat;
+    float: left;
+}
+
+

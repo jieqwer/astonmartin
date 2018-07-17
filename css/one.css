@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: white;
+}
+li,a,h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+}
+.conten{
+    width:1320px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.big{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+}
+.big>span {
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.xt{
+    width: 200px;
+    height: 200px;
+
+}
+.xt>img{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+.biaCar{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+.car ul li{
+    width: 300px;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 0px 15px 30px 0px;
+}
+.biaCar ul li{
+    width: 300px;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 0px 15px 30px 0px;
+
+}
+.car ul li>a{
+    color: black;
+}
+.car ul li>a>img{
+    width: 100%;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 30px 15px 30px 0px;
+}
+.ContentBlock{
+    width: auto !important;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.car>ul{
+    width: 100%;
+    float: left;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li a{
+    color: white;
+}
+
+.biaCar ul li>a>img{
+    width: 100%;
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 30px 15px 30px 0px;
+}
+.biaCar h2{
+    color: black;
+}
